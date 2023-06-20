@@ -9,4 +9,6 @@ def main(x, y):
     Returns:
         int: the value of the expression
     """
-    return
+    return 5 * pow(x,2) * pow(y,3) + x * pow(y,2)
+x,y = 7,1
+print(main(x,y))
